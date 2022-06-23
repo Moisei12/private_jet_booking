@@ -5,40 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Private Jet Booking</title>
 </head>
 <body>
     <!-- header -->
     <header>
-        <a href="#"><img src="./images/Logo.png" alt="logo" width="139"></a>
+        <a href="#" class="logo"><img src="./images/Logo.png" alt="logo" width="139"></a>
         <nav>
             <ul class="navbar-items">
-                <li>Home</li>
-                <li>Booking</li>
-                <li>Private Jet</li>
-                <li>Specification</li>
-                <li>Luxury Charters</li>
-                <li>Membership</li>
-                <li>Register</li>
+                <li class="navbar-item">Home</li>
+                <li class="navbar-item">Booking</li>
+                <li class="navbar-item">Private Jet</li>
+                <li class="navbar-item">Specification</li>
+                <li class="navbar-item">Luxury Charters</li>
+                <li class="navbar-item">Membership</li>
+                <li class="register">Register</li>
             </ul>
-            <button type="button">Sign In</button>
+            <button type="button" class="sign-in">Sign In</button>
         </nav>
-        <img src="./images/wing-airplane-with-city-background.png" alt="wing airplane with city background" width="1440" height="1307">
-        <h1>Enjoy <span class="reserved">Reserved</span>
-            Overhead bin space</h1>
-        <img src="./images/plane_wing.png" alt="plane wing" width="354" height="444">
-        <p>Explore Now</p>
-        <img src="./images/arrow-right.png" alt="arrow-right" width="16" height="16">
+        <img src="./images/wing-airplane-with-city-background.png" alt="wing airplane with city background" width="1560">
+        <div class="heading-1">
+            <h1 class="h1">Enjoy <span class="reserved">Reserved</span>
+                Overhead bin space</h1>
+            <img src="./images/plane_wing.png" alt="plane wing" width="354" height="444" class="plane-window">
+            <p class="explore">Explore Now</p>
+            <img src="./images/arrow-right.png" alt="arrow-right" width="16" height="16" class="arrow-right">
+        </div>
     </header>
     <!-- main -->
     <main>
     
         <section>
-            <h2>Booking</h2>
+            <h2 class="h2">Booking</h2>
             <ul class="list-items">
-                <li>Round Trip <img src="./images/arrow_drop_down_black.png" alt="arrow drop down black" width="24" height="24"></li>
-                <li>Flight Type <img src="./images/arrow_drop_down_black.png" alt="arrow drop down black" width="24" height="24"></li>
-                <li>Person <img src="./images/arrow_drop_down_black.png" alt="arrow drop down black" width="24" height="24"></li>
+                <li class="list-items-1">Round Trip <img src="./images/arrow_drop_down_black.png" alt="arrow drop down black" width="24" height="24"></li>
+                <li class="list-items-2">Flight Type <img src="./images/arrow_drop_down_black.png" alt="arrow drop down black" width="24" height="24"></li>
+                <li class="list-items-3">Person <img src="./images/arrow_drop_down_black.png" alt="arrow drop down black" width="24" height="24"></li>
             </ul>
             <ul>
                 <li>
@@ -47,12 +52,11 @@
                             <li>From</li>
                             <li>Lax</li>
                             <li>Los Angeles Intl Arpt,Los Angeles</li>
+                            <li><img src="./images/left-rigt-arrows.png" alt="left rigt arrows" width="28" height="28"></li>
                         </ul>
                     </div>
                 </li>
-                <div>
-                    <img src="./images/left-rigt-arrows.png" alt="left rigt arrows" width="28" height="28">
-                </div>
+
                 <li>
                     <div>
                         <ul>
@@ -98,7 +102,7 @@
                 web page editors</p>
         
         <!-- Business Jet Charter -->
-        <img src="./images/inside-plane image.png" alt="inside plane" width="589" height="392">
+        <img src="./images/inside-plane.png" alt="inside plane" width="589" height="392">
             <h3>Business Jet Charter</h3>
             <p>It is a long established fact that a reader will be distracted by
                 the readable content of a page when looking at its layout.
@@ -270,11 +274,9 @@
                 </ul>
             </div>
         </section>
-        <section>
             <div>
                 <img src="./images/plane-large.png" alt="large plane" width="760" height="200">
             </div>
-        </section>
     </main>
     <!-- footer -->
     <footer>

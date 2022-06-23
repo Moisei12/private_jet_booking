@@ -1,0 +1,97 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    position: absolute;
+    width: 139px;
+    height: 36.42px;
+    left: 165px;
+    top: 38px;    
+}
+.navbar-items{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    width: 555px;
+    height: 22px;
+    left: 454px;
+    top: 45px;
+}
+.navbar-item{
+    padding-left: 20px;
+}
+.register{
+    padding-left: 95px;
+}
+.sign-in{
+    position: absolute;
+    width: 93px;
+    height: 31px;
+    left: 1182px;
+    top: 41px;
+    background: #656293;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.h1{
+    position: absolute;
+    width: 587px;
+    height: 154px;
+    left: 165px;
+    top: 246px;
+    font-size: 66px;
+    line-height: 77px;
+    text-transform: capitalize;
+    color: #151515;
+}
+.reserved{
+    text-transform: uppercase;
+    color: #656293;
+}
+.explore{
+    position: absolute;
+    width: 97px;
+    height: 24px;
+    left: 165px;
+    top: 500px;
+}
+.arrow-right{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 272px;
+    top: 503px;
+}
+.plane-window{
+    position: absolute;
+    width: 354px;
+    height: 444px;
+    left: 924px;
+    top: 139px;
+}
+.h2{
+    display: none;
+}
+.list-items{
+    display: flex;
+    list-style: none;
+}
+.list-items-1{
+    position: absolute;
+    width: 77px;
+    height: 21px;
+    left: 194px;
+    top: 670px;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #151515;
+}
+
